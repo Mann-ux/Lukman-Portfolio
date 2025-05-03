@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (window.pageYOffset > fixedNav) {
           header.classList.add('navbar-fixed');
           hamburger.classList.remove('bg-transparent');
-          hamburger.classList.add('bg-white/30', 'backdrop-blur-sm', 'rounded-md');
+          hamburger.classList.add('backdrop-blur-sm', 'rounded-md');
       } else {
           header.classList.remove('navbar-fixed');
           hamburger.classList.remove('bg-white/30', 'backdrop-blur-sm', 'rounded-md');
@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
       navMenu.classList.toggle('hidden');
   });
 });
-
 
 /*~~~~~~~~~~~~~~~ SHOW SCROLL UP ~~~~~~~~~~~~~~~*/
 const scrollUp = () => {
